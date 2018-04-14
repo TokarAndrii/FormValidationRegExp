@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<title>Hello webpack</title>
+<div id="root"></div>
+
+<section class="holder">
+    <div class="holder__topRow">
+        <h1>Log in to the Site</h1>
+        <a class="close" href="#"><img src="src/img/Close.png" alt="close_img"></a>
+    </div>
+    <div class="holder__middleRow">
+        <aside>
+            <input type="button" value="Log in with Facebook" class="holder__facebookLog">
+            <input type="button" value="Log in with Google +" class="holder__googleLog">
+        </aside>
+        <form action="#" class="loginForm">
+            <label class="loginForm__label" for="login">Login</label>
+            <input required type="text" name="login" class="loginForm__loginInput loginForm__input" pattern="([a-zA-Z0-9-_\s`´ʼ’ʼ’']+)">
+            <label class="loginForm__label" for="pass">Password</label>
+            <input required type="password" name="pass" class="loginForm__passInput loginForm__input" pattern="([a-zA-Z0-9-_\s`´ʼ’ʼ’']+)">
+            <input type="checkbox" name="remember" checked="checked" class="loginForm__rememberMe">
+            <label class="loginForm__label-checkBox" for="remember">Remember me</label>
+            <div class="loginForm__row">
+                <input type="submit" value="Log in" class="loginForm__sbm">
+                <a href="#" class="loginForm__row-link">Need help logging in?</a>
+            </div>
+        </form>
+    </div>
+    <div class="holder__bottomRow">
+        Dont have an account yet? <a href="#" class="holder__bottomRow-link">Sign up</a>
+    </div>
+
+
+</section>
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>

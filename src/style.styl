@@ -1,0 +1,145 @@
+body
+  font-size: 100%
+  margin: 0
+  padding: 0
+  font-family: Arial;
+.holder
+  width: 841px
+  @media screen and (max-width: 850px)
+    width: 800px
+  @media screen and (max-width: 650px)
+    width: 600px
+  @media screen and (max-width: 550px)
+    width: 500px
+  @media screen and (max-width: 500px)
+    width: 450px
+  @media screen and (max-width: 450px)
+    width: 400px
+  @media screen and (max-width: 400px)
+    width: 350px
+.holder__topRow
+  position relative
+  text-align: center;
+.close
+  position absolute
+  right: 17px
+  top: 17px
+.holder__middleRow
+  background-color #f3f3f3
+  height: 360px
+  overflow: hidden
+  @media screen and (max-width: 850px)
+    height: 500px
+    width: 800px
+  @media screen and (max-width: 450px)
+    width: 400px
+  @media screen and (max-width: 400px)
+    width: 350px
+  @media screen and (max-width: 385px)
+    width: 320px
+.loginForm, aside
+  display: inline-block
+  float: left
+  @media screen and (max-width: 850px)
+    display block
+    float none
+aside
+  padding-left: 60px
+  padding-right:60px
+  @media screen and (max-width: 850px)
+    padding-left:30%;
+  @media screen and (max-width: 550px)
+    padding-left:15%;
+  @media screen and (max-width: 385px)
+    padding-left: 30px
+.loginForm
+  padding-left: 60px
+  padding-top: 13px
+  @media screen and (max-width: 850px)
+    padding-left:30%;
+  @media screen and (max-width: 550px)
+    padding-left:15%;
+  @media screen and (max-width: 385px)
+    padding-left: 30px
+  &__input
+    display block
+    width: 300px
+    height: 40px
+    border-radius 3px;
+    border 1px solid #dddddd
+    @media screen and (max-width: 385px)
+      width: 250px
+  &__label
+    color #333333
+    font-weight:bold;
+    font-size:14px;
+    line-height: 18px
+    margin-bottom: 10px
+    margin-top: 24px
+    display: block
+    font-weight: bold
+  &__rememberMe
+    width: 12px
+    height: 12px
+    line-height: 18px
+    margin-top: 24px
+    margin-bottom 24px
+    &:focus
+      display: inline-block
+      background-color #3b99fc
+      color #fefeff
+  &__sbm
+    background-color: #252525
+    width: 103px
+    height: 40px
+    border 0px
+    border-radius 3px
+    color #ffffff
+    font-size:14px;
+    line-height: 18px
+    margin-top: 24px
+    margin-bottom: 40px
+    font-weight: bold
+    margin-right: 48px
+    @media screen and (max-width: 385px)
+      margin-right: 5px
+  &__label-checkBox
+    color #333333
+    line-height: 18px
+    margin-top: 24px
+    margin-bottom 24px
+  &__row-link
+    color #252525
+    font-size:14px;
+    line-height: 18px
+    font-weight: bold
+    @media screen and (max-width: 385px)
+      font-size: 12px
+.holder__facebookLog, .holder__googleLog
+  width: 300px
+  height: 40px
+  display: block
+  border 0px
+  border-radius 3px;
+  color #ffffff
+  font-family Arial
+  font-weight:bold;
+  font-size:14px;
+  line-height: 18px
+  @media screen and (max-width: 385px)
+    width: 250px
+.holder__googleLog
+  background url("img/google.png") no-repeat #dd5342 left 5% center
+.holder__facebookLog
+  background url("img/facebook.png") no-repeat #3e5b96 left 5% center
+  margin-top: 40px
+  margin-bottom: 22px
+.holder__bottomRow
+  text-align: center;
+  line-height: 90px
+  color #666666
+  &-link
+    color #000000
+    font-weight:bold;
+    font-size:18px;
+    line-height: 18px
